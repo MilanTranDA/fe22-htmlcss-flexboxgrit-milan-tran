@@ -1,0 +1,27 @@
+article{
+    border: 2px solid limegreen;
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+div{
+    display: flex;
+    gap: 4%;
+    margin-bottom: 1rem;
+}
+
+.hund article{
+    flex-basis: 22%;
+
+}
+
+.cage article{
+    flex-basis: 48%;
+}
+.katt1{
+    flex-basis: 22%;
+}
+.katt2{
+    flex-basis: 74%;
+}
+
